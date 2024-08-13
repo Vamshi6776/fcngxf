@@ -1,0 +1,95 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .search-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-field {
+    flex: 1;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .search-field:focus {
+    border-color: #007bff;
+  }
+  
+  .search-btn {
+    background-color: #007bff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-btn ion-icon {
+    font-size: 20px;
+  }
+  
+  .search-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .item-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .item-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .item-list li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Link styling */
+  .item-link {
+    text-decoration: none; /* Removes underline */
+    color: #333; /* Sets the link color to a dark grey */
+    display: block; /* Ensures the link takes up the full width of the list item */
+  }
+  
+  .item-link:hover {
+    color: #007bff; /* Changes color on hover */
+    background-color: #f0f0f0; /* Optional: Adds a background color on hover */
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+  
